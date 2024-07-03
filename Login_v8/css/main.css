@@ -197,6 +197,7 @@ iframe {
 .login100-form {
   width: 100%;
   position: relative;
+  border-radius: 27px;
 }
 
 .login100-form-title {
@@ -314,6 +315,46 @@ iframe {
 
 .login100-form-btn:hover {
   background-color: #1b3815;
+}
+.container-Register100-form-btn {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Register100-form-btn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  width: 100%;
+  height: 50px;
+  background-color: #4027ca;
+  border-radius: 25px;
+
+  font-family: Ubuntu-Bold;
+  font-size: 15px;
+  color: #fff;
+  line-height: 1.2;
+  text-transform: uppercase;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.Register100-form-btn:hover {
+  background-color: #27018f;
 }
 
 
