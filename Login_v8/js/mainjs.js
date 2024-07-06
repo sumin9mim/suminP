@@ -76,5 +76,3 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 });
-
-// export { username, password };

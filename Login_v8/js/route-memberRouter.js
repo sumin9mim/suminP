@@ -1,4 +1,4 @@
-import { username, password } from "./mainjs.js";
+// import { username, password } from "./main.js";
 
 const mysql = require("mysql");
 const con = mysql.createConnection({
@@ -8,7 +8,7 @@ const con = mysql.createConnection({
   database: signupdb,
 });
 
-router.post("/mainjs", (req, res) => {
+router.post("/main", (req, res) => {
   username = req.body.username;
   password = req.body.password;
   var sql = "INSERT INTO member (username, password) VALUES (?,?)";
